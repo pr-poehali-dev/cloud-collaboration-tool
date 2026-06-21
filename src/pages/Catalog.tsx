@@ -37,7 +37,7 @@ const offers = [
     img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/8be6d885-8126-452e-a2f2-cb46bd907dd2.jpg",
     alt: "Суши-сет",
     title: "Суши-сет «Токио»",
-    oldPrice: "1 800 ₽",
+    oldPrice: "1 600 ₽",
     newPrice: "1 080 ₽",
     desc: "Ролл-микс из ресторана «Сакура». Свежий лосось, авокадо, огурец. Забрать до 21:30.",
   },
