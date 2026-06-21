@@ -111,7 +111,7 @@ export default function Index() {
                 >
                   <h3>Сет «Пиццурик"</h3>
                   <span className="price">
-                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 800 ₽</s>540 ₽
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 400 ₽</s>540 ₽
                   </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>Сет "Пиццурик" из пиццерии «Фьюжн». 
