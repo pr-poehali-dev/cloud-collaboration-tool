@@ -73,7 +73,7 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">-65%</span>
+              <span className="menu-tag">-55%</span>
               <img
                 src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/7fc0d0d7-1d7c-427a-949e-7eb85998758b.jpg"
                 alt="Бокс из бургерной"
@@ -89,7 +89,7 @@ export default function Index() {
                 >
                   <h3>Бокс «Бургерная»</h3>
                   <span className="price">
-                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 400 ₽</s>490 ₽
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 200 ₽</s>540 ₽
                   </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
