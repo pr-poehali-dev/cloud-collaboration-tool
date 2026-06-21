@@ -37,11 +37,8 @@ export default function Index() {
             </div>
           </div>
           <div className="hero-img">
-            <div className="sticker bg-[#fa2d2d]">
-              -70%
-              <br />
-              КАЖДЫЙ ДЕНЬ
-            </div>
+            <div className="sticker py-5 bg-[#fa2d2d]">-50%
+КАЖДЫЙ ДЕНЬ</div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
               #НОЛЬОТХОДОВ
             </div>
