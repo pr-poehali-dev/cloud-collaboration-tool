@@ -114,12 +114,12 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Бокс «Пиццерия»</h3>
+                  <h3>Бокс «Пиццурик"</h3>
                   <span className="price">
                     <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 800 ₽</s>540 ₽
                   </span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Пара пицц дня на закваске. Пиццерия «Фьюжн» · забрать до 23:00.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Пиццерия «Фьюжн» · забрать до 23:00.</p>
               </div>
             </div>
 
