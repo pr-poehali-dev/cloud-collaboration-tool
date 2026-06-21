@@ -147,15 +147,24 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">МЕНЬШЕ ОТХОДОВ. БОЛЬШЕ ВКУСА.</h2>
+            <h2 className="vibe-title">КАК ЭТО РАБОТАЕТ</h2>
             <p className="vibe-text">
-              Каждый день кафе и пекарни выбрасывают тонны хорошей еды. Мы соединяем заведения и людей: ты забираешь свежие блюда со скидкой, а планета — меньше мусора. Каждый заказ — это спасённая порция и реальная польза.
+              Каждый день кафе, рестораны и пекарни выбрасывают тонны свежей еды — просто потому что не успели продать. Это огромные потери для бизнеса и удар по экологии.
             </p>
-            <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Как это работает
-            </button>
+            <p className="vibe-text" style={{ marginTop: "16px" }}>
+              LastFood решает эту проблему: заведения размещают остатки еды со скидкой до 50%, а ты забираешь свежие блюда почти даром. Никакой просрочки — только еда, которую не успели продать сегодня.
+            </p>
+            <p className="vibe-text" style={{ marginTop: "16px" }}>
+              Выбираешь бокс → оплачиваешь онлайн → забираешь в удобное время. Всё просто. Каждый заказ — это спасённая порция и реальная польза для планеты.
+            </p>
           </div>
-          <div className="vibe-img"></div>
+          <div className="vibe-img">
+            <img
+              src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/files/c16f7c43-e9af-4173-8e98-4bd0e743f6eb.jpg"
+              alt="Как работает LastFood"
+              style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }}
+            />
+          </div>
         </section>
 
         <section className="section-padding">
