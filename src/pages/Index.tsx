@@ -114,7 +114,7 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Бокс «Пиццурик"</h3>
+                  <h3>Сет «Пиццурик"</h3>
                   <span className="price">
                     <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 800 ₽</s>540 ₽
                   </span>
