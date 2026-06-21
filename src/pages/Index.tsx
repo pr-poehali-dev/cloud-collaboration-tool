@@ -104,7 +104,7 @@ export default function Index() {
                 -70%
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/d2877463-754a-4e11-bb48-bedf8bc3028e.jpg"
                 alt="Бокс из пиццерии"
               />
               <div className="menu-card-body">
@@ -131,7 +131,7 @@ export default function Index() {
                 -60%
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/3c06e658-efd2-4d90-a330-aea2cd94c70f.jpg"
                 alt="Бокс из пекарни"
               />
               <div className="menu-card-body">
