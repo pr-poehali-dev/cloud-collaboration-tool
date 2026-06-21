@@ -54,7 +54,7 @@ const offers = [
   {
     tag: "-50%",
     tagStyle: { background: "var(--accent)", color: "var(--dark)" },
-    img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/56ffbc80-d40b-4577-8a61-60288d8f4da6.jpg",
+    img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/c5340cee-646f-4583-b6ee-9cfc1e2dc72e.jpg",
     alt: "Салат-бокс",
     title: "Салат-бокс «Грин»",
     oldPrice: "680 ₽",
