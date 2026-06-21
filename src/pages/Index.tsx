@@ -20,7 +20,9 @@ export default function Index() {
             <h1 className="hero-title">
               ВКУСНО,
               <br />
-              ВЫГОДНО, <span>ЭКО</span>
+              ВЫГОДНО,
+              <br />
+              <span>ЭКОЛОГИЧНО</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
               Спасаем еду от мусорки! Забирай свежие блюда из кафе и пекарен со скидкой до 70% — заведения меньше выбрасывают, а ты платишь меньше.
