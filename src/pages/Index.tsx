@@ -227,7 +227,7 @@ export default function Index() {
           <h4>Поддержка</h4>
           <ul>
             <li>Ежедневно: 09:00 - 22:00</li>
-            <li>support@eda-spasena.ru</li>
+            <li>support@LAST.FOOD</li>
             <li>8 800 000-00-00</li>
             <li>Подключить заведение</li>
           </ul>
