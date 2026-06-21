@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">LAST*FOOD</div>
+        <div className="logo">LastFood</div>
         <nav>
           <a href="#">Предложения</a>
           <a href="#">Как это работает</a>
