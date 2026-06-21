@@ -73,7 +73,7 @@ export default function Index() {
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">-45%</span>
+              <span className="menu-tag text-xs">-45%</span>
               <img
                 src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/7fc0d0d7-1d7c-427a-949e-7eb85998758b.jpg"
                 alt="Бокс из бургерной"
