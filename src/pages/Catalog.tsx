@@ -56,10 +56,10 @@ const offers = [
     tagStyle: { background: "var(--accent)", color: "var(--dark)" },
     img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/c5340cee-646f-4583-b6ee-9cfc1e2dc72e.jpg",
     alt: "Салат-бокс",
-    title: "Салат-бокс «Грин»",
+    title: "Боул с сёмгой и яйцом",
     oldPrice: "680 ₽",
     newPrice: "340 ₽",
-    desc: "Свежий микс с фетой и овощами из «GreenBowl». Забрать до 20:30.",
+    desc: "Боул с сёмгой, яйцом пашот, авокадо и кимчи. Забрать до 20:30.",
   },
   {
     tag: "-45%",
