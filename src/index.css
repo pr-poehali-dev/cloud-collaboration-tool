@@ -259,7 +259,7 @@ nav a:hover {
   position: absolute;
   bottom: 20px;
   right: 20px;
-  background: var(--secondary);
+  background: var(--primary);
   color: white;
   padding: 15px;
   border-radius: 50%;
