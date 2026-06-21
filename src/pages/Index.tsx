@@ -4,77 +4,77 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">EDA*SPASENA</div>
         <nav>
-          <a href="#">Меню</a>
-          <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Предложения</a>
+          <a href="#">Как это работает</a>
+          <a href="#">Заведениям</a>
+          <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Скачать приложение</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ВКУСНО,
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              ВЫГОДНО, <span>ЭКО</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Спасаем еду от мусорки! Забирай свежие блюда из кафе и пекарен со скидкой до 70% — заведения меньше выбрасывают, а ты платишь меньше.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Найти еду рядом
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Как это работает
               </button>
             </div>
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              -70%
               <br />
               КАЖДЫЙ ДЕНЬ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #НОЛЬОТХОДОВ
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              СВЕЖЕЕ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * СКИДКИ ДО 70% * СПАСАЕМ ЕДУ ОТ МУСОРКИ * СВЕЖЕЕ КАЖДЫЙ ДЕНЬ * МЕНЬШЕ ОТХОДОВ * ВКУСНО И ВЫГОДНО *
+            СКИДКИ ДО 70% * СПАСАЕМ ЕДУ ОТ МУСОРКИ * СВЕЖЕЕ КАЖДЫЙ ДЕНЬ * МЕНЬШЕ ОТХОДОВ * ВКУСНО И ВЫГОДНО
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Всё меню
+              Все предложения
             </a>
           </div>
 
           <div className="menu-grid">
             {/* Item 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">-65%</span>
               <img
                 src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                alt="Бокс из бургерной"
               />
               <div className="menu-card-body">
                 <div
@@ -85,11 +85,13 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Бокс «Бургерная»</h3>
+                  <span className="price">
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 400 ₽</s>490 ₽
+                  </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Сюрприз-набор из бургеров и закусок дня. Кафе «Гриль» · забрать до 22:00.
                 </p>
               </div>
             </div>
@@ -97,11 +99,11 @@ export default function Index() {
             {/* Item 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                -70%
               </span>
               <img
                 src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                alt="Бокс из пиццерии"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +114,23 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Бокс «Пиццерия»</h3>
+                  <span className="price">
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 800 ₽</s>540 ₽
+                  </span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Пара пицц дня на закваске. Пиццерия «Фьюжн» · забрать до 23:00.</p>
               </div>
             </div>
 
             {/* Item 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                -60%
               </span>
               <img
                 src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                alt="Бокс из пекарни"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +141,13 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Бокс «Пекарня»</h3>
+                  <span className="price">
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>900 ₽</s>360 ₽
+                  </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Свежая выпечка и десерты, что не успели продать. Пекарня «Тёплый хлеб» · до 20:00.
                 </p>
               </div>
             </div>
@@ -150,13 +156,12 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">МЕНЬШЕ ОТХОДОВ. БОЛЬШЕ ВКУСА.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Каждый день кафе и пекарни выбрасывают тонны хорошей еды. Мы соединяем заведения и людей: ты забираешь свежие блюда со скидкой, а планета — меньше мусора. Каждый заказ — это спасённая порция и реальная польза.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              Как это работает
             </button>
           </div>
           <div className="vibe-img"></div>
@@ -164,7 +169,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @EDA.SPASENA
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -197,9 +202,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">EDA*SPASENA</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Сервис спасения еды: свежие блюда из кафе и пекарен со скидкой до 70%. Вкусно тебе — полезно планете.
           </p>
         </div>
         <div className="footer-links">
@@ -207,39 +212,39 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Предложения
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                О нас
+                Как это работает
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Заведениям
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
         </div>
         <div className="footer-links">
-          <h4>Часы работы</h4>
+          <h4>Поддержка</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Ежедневно: 09:00 - 22:00</li>
+            <li>support@eda-spasena.ru</li>
+            <li>8 800 000-00-00</li>
+            <li>Подключить заведение</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2025 EDA SPASENA</span>
+          <span>СПАСАЕМ ЕДУ ВМЕСТЕ</span>
+          <span>IG / TG / VK</span>
         </div>
       </footer>
     </>
