@@ -57,11 +57,11 @@ export default function Index() {
           <div className="section-header">
             <h2 className="section-title">ГОРЯЧИЕ ПРЕДЛОЖЕНИЯ</h2>
             <a
-              href="#"
+              href="/catalog"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Все предложения
+              Все предложения →
             </a>
           </div>
 
