@@ -193,7 +193,7 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">LAST*FOOD</div>
+          <div className="footer-logo">LASTFOOD</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Сервис спасения еды: свежие блюда из кафе и пекарен со скидкой до 70%. Вкусно тебе — полезно планете.
           </p>
