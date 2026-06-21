@@ -4,7 +4,7 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">EDA*SPASENA</div>
+        <div className="logo">LAST*FOOD</div>
         <nav>
           <a href="#">Предложения</a>
           <a href="#">Как это работает</a>
@@ -169,7 +169,7 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @EDA.SPASENA
+            @LAST.FOOD
           </h2>
           <div className="social-grid">
             <div className="social-item">
@@ -202,7 +202,7 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">EDA*SPASENA</div>
+          <div className="footer-logo">LAST*FOOD</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
             Сервис спасения еды: свежие блюда из кафе и пекарен со скидкой до 70%. Вкусно тебе — полезно планете.
           </p>
@@ -242,7 +242,7 @@ export default function Index() {
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 EDA SPASENA</span>
+          <span>2025 LAST FOOD</span>
           <span>СПАСАЕМ ЕДУ ВМЕСТЕ</span>
           <span>IG / TG / VK</span>
         </div>
