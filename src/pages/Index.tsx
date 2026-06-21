@@ -93,9 +93,7 @@ export default function Index() {
 
             {/* Item 2 */}
             <div className="menu-card">
-              <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                -70%
-              </span>
+              <span className="menu-tag" style={{ background: "var(--secondary)" }}>-50%</span>
               <img
                 src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/d2877463-754a-4e11-bb48-bedf8bc3028e.jpg"
                 alt="Бокс из пиццерии"
