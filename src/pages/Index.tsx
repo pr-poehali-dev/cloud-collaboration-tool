@@ -37,7 +37,7 @@ export default function Index() {
             </div>
           </div>
           <div className="hero-img">
-            <div className="sticker">
+            <div className="sticker bg-[#fa2d2d]">
               -70%
               <br />
               КАЖДЫЙ ДЕНЬ
