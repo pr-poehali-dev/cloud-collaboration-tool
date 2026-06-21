@@ -87,7 +87,7 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Бокс «Бургерная»</h3>
+                  <h3>Бокс «PRIMEIRO»</h3>
                   <span className="price">
                     <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 200 ₽</s>540 ₽
                   </span>
