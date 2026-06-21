@@ -142,14 +142,13 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Бокс «Пекарня»</h3>
+                  <h3>Круассаны</h3>
                   <span className="price">
                     <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>900 ₽</s>360 ₽
                   </span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>
-                  Свежая выпечка и десерты, что не успели продать. Пекарня «Тёплый хлеб» · до 20:00.
-                </p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Свежая выпечка и десерты и пекарни «Тёплый хлеб». 
+Забрать до 20:00.</p>
               </div>
             </div>
           </div>
