@@ -34,7 +34,7 @@ const offers = [
   {
     tag: "-40%",
     tagStyle: { background: "var(--primary)" },
-    img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/files/bb2d616f-170a-41a9-af2b-f6e45dc42d6a.jpg",
+    img: "https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/56ffbc80-d40b-4577-8a61-60288d8f4da6.jpg",
     alt: "Суши-сет",
     title: "Суши-сет «Токио»",
     oldPrice: "1 800 ₽",
