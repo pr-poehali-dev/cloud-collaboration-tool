@@ -160,7 +160,7 @@ export default function Index() {
           </div>
           <div className="vibe-img">
             <img
-              src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/files/c16f7c43-e9af-4173-8e98-4bd0e743f6eb.jpg"
+              src="https://cdn.poehali.dev/projects/67155911-714a-4d5d-9a81-947faa3e7d84/bucket/dc06ccdc-ed47-4a18-bf09-e50fb0abb7e3.jpg"
               alt="Как работает LastFood"
               style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }}
             />
