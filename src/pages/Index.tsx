@@ -84,7 +84,7 @@ export default function Index() {
                 >
                   <h3>Бокс «PRIMEIRO»</h3>
                   <span className="price">
-                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 200 ₽</s>540 ₽
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 200 ₽</s>660 ₽
                   </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>Бокс PRIMEIRO из "Reino Burger". Забрать до 22:00.</p>
@@ -109,7 +109,7 @@ export default function Index() {
                 >
                   <h3>Сет «Пиццурик"</h3>
                   <span className="price">
-                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 400 ₽</s>540 ₽
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 400 ₽</s>700 ₽
                   </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>Сет "Пиццурик" из пиццерии «Фьюжн». 
@@ -135,7 +135,7 @@ export default function Index() {
                 >
                   <h3>Круассаны</h3>
                   <span className="price">
-                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>360 ₽</s>360 ₽
+                    <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>360 ₽</s>199 ₽
                   </span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>Свежая выпечка и десерты и пекарни «Тёплый хлеб». 
