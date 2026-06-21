@@ -92,7 +92,7 @@ export default function Index() {
                     <s style={{ color: "#bbb", marginRight: "6px", fontWeight: 400 }}>1 200 ₽</s>540 ₽
                   </span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Набор PRIMEIRO из "Reino Burger". Забрать до 22:00.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Бокс PRIMEIRO из "Reino Burger". Забрать до 22:00.</p>
               </div>
             </div>
 
