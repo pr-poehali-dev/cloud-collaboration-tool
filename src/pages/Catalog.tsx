@@ -1,4 +1,6 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { useCart } from "@/context/CartContext";
+import Icon from "@/components/ui/icon";
 
 const offers = [
   {
@@ -94,16 +96,47 @@ const offers = [
 ];
 
 const Catalog = () => {
+  const { addItem, count } = useCart();
+  const navigate = useNavigate();
+
   return (
     <div style={{ minHeight: "100vh", background: "var(--bg)", padding: "40px 20px" }}>
       <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "16px", marginBottom: "32px" }}>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "32px" }}>
           <Link
             to="/"
             style={{ color: "var(--dark)", fontWeight: 700, textDecoration: "none", fontSize: "14px", textTransform: "uppercase" }}
           >
             ← Главная
           </Link>
+          <button
+            className="btn-cta"
+            onClick={() => navigate("/cart")}
+            style={{ display: "flex", alignItems: "center", gap: "8px", position: "relative" }}
+          >
+            <Icon name="ShoppingCart" size={18} />
+            Корзина
+            {count > 0 && (
+              <span style={{
+                position: "absolute",
+                top: "-8px",
+                right: "-8px",
+                background: "var(--primary)",
+                color: "white",
+                borderRadius: "50%",
+                width: "20px",
+                height: "20px",
+                fontSize: "11px",
+                fontWeight: 800,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                border: "2px solid var(--dark)",
+              }}>
+                {count}
+              </span>
+            )}
+          </button>
         </div>
         <h1 style={{ fontFamily: "Unbounded, sans-serif", fontWeight: 800, fontSize: "clamp(24px, 5vw, 48px)", marginBottom: "32px", textTransform: "uppercase" }}>
           Все предложения
@@ -121,7 +154,14 @@ const Catalog = () => {
                     {item.newPrice}
                   </span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>{item.desc}</p>
+                <p style={{ fontSize: "14px", color: "#666", marginBottom: "14px" }}>{item.desc}</p>
+                <button
+                  className="btn-cta"
+                  style={{ width: "100%", fontSize: "13px", padding: "10px" }}
+                  onClick={() => addItem({ title: item.title, img: item.img, newPrice: item.newPrice, oldPrice: item.oldPrice, tag: item.tag })}
+                >
+                  В корзину
+                </button>
               </div>
             </div>
           ))}
